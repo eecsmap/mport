@@ -40,3 +40,9 @@ import mport
 light_port = mport.Port('io.dat', offset=2)
 light_port.value = True
 ```
+
+RGB LED Example
+```
+python3 -m mport.examples.rgb_led
+python3 -m mport.exmaples.rgb_led_drive
+```
