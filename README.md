@@ -52,5 +52,4 @@ Test how fast data can go
 python3 -m mport.examples.port_writer
 python3 -m mport.examples.port_reader
 ```
-I got a write/read frequency around 30KHz, however, there are times the data delay from writer to the reader can be as much as 0.01s which is huge. Data change will be delivered by mmap yet we don't have a realtime guarantee of max delivery time.
 
